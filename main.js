@@ -161,3 +161,16 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+
+  // Disable right-click
+  document.addEventListener("contextmenu", (e) => e.preventDefault());
+
+  // Disable F12, Ctrl+Shift+I, Ctrl+U
+  document.addEventListener("keydown", (e) => {
+    if (e.ctrlKey && ["u", "s", "c", "i"].includes(e.key.toLowerCase()) || e.key === "F12") {
+      e.preventDefault();
+    }
+  });
+
+
