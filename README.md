@@ -4,7 +4,7 @@ Welcome to my personal portfolio! This website showcases my projects, experience
 
 ## 🌐 Live Demo
 
-[Visit the Portfolio]([https://your-portfolio-link.com](https://nehamarlady.netlify.app/))  
+[Visit the Portfolio](https://nehamarlady.netlify.app/))  
 
 
 ## ✨ Features
